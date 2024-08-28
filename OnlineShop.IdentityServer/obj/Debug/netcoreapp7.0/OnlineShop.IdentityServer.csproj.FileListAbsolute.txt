@@ -99,3 +99,5 @@ C:\Janet_App\My_Project\Core\OnlineShop1\OnlineShop\OnlineShop.IdentityServer\ob
 C:\Janet_App\My_Project\Core\OnlineShop1\OnlineShop\OnlineShop.IdentityServer\bin\Debug\netcoreapp7.0\AutoMapper.dll
 C:\Janet_App\My_Project\Core\OnlineShop1\OnlineShop\OnlineShop.IdentityServer\bin\Debug\netcoreapp7.0\IdentityServer4.EntityFramework.Storage.dll
 C:\Janet_App\My_Project\Core\OnlineShop1\OnlineShop\OnlineShop.IdentityServer\bin\Debug\netcoreapp7.0\IdentityServer4.EntityFramework.dll
+C:\Janet_App\My_Project\Core\OnlineShop1\OnlineShop\OnlineShop.IdentityServer\bin\Debug\netcoreapp7.0\OnlineShop.Library.dll
+C:\Janet_App\My_Project\Core\OnlineShop1\OnlineShop\OnlineShop.IdentityServer\bin\Debug\netcoreapp7.0\OnlineShop.Library.pdb

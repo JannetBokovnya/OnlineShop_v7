@@ -1,0 +1,12 @@
+C:\Janet_App\My_Project\Core\OnlineShop1\OnlineShop\OnlineShop.Library\obj\Debug\net7.0\OnlineShop.Library.csproj.AssemblyReference.cache
+C:\Janet_App\My_Project\Core\OnlineShop1\OnlineShop\OnlineShop.Library\obj\Debug\net7.0\OnlineShop.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Janet_App\My_Project\Core\OnlineShop1\OnlineShop\OnlineShop.Library\obj\Debug\net7.0\OnlineShop.Library.AssemblyInfoInputs.cache
+C:\Janet_App\My_Project\Core\OnlineShop1\OnlineShop\OnlineShop.Library\obj\Debug\net7.0\OnlineShop.Library.AssemblyInfo.cs
+C:\Janet_App\My_Project\Core\OnlineShop1\OnlineShop\OnlineShop.Library\obj\Debug\net7.0\OnlineShop.Library.csproj.CoreCompileInputs.cache
+C:\Janet_App\My_Project\Core\OnlineShop1\OnlineShop\OnlineShop.Library\bin\Debug\net7.0\OnlineShop.Library.deps.json
+C:\Janet_App\My_Project\Core\OnlineShop1\OnlineShop\OnlineShop.Library\bin\Debug\net7.0\OnlineShop.Library.dll
+C:\Janet_App\My_Project\Core\OnlineShop1\OnlineShop\OnlineShop.Library\bin\Debug\net7.0\OnlineShop.Library.pdb
+C:\Janet_App\My_Project\Core\OnlineShop1\OnlineShop\OnlineShop.Library\obj\Debug\net7.0\OnlineShop.Library.dll
+C:\Janet_App\My_Project\Core\OnlineShop1\OnlineShop\OnlineShop.Library\obj\Debug\net7.0\refint\OnlineShop.Library.dll
+C:\Janet_App\My_Project\Core\OnlineShop1\OnlineShop\OnlineShop.Library\obj\Debug\net7.0\OnlineShop.Library.pdb
+C:\Janet_App\My_Project\Core\OnlineShop1\OnlineShop\OnlineShop.Library\obj\Debug\net7.0\ref\OnlineShop.Library.dll

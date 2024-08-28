@@ -15,7 +15,10 @@ using IdentityServer4.EntityFramework.DbContexts;
 using IdentityServer4.EntityFramework.Mappers;
 using System.Linq;
 using System.Reflection;
-using OnlineShop.IdentityServer.Models;
+using OnlineShop.Library.Data;
+using OnlineShop.Library.UserManagementService.Models;
+using OnlineShop.Library.Constants;
+
 //using OnlineShop.Library.UserMangementService.Models;
 //using OnlineShop.Library.Data;
 //using OnlineShop.Library.Constants;
@@ -39,13 +42,13 @@ namespace OnlineShop.IdentityServer
             services.AddControllersWithViews();
 
             var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
-            var identityconnectionString = Configuration.GetConnectionString("IdentityServerConnection");
+            var identityconnectionString = Configuration.GetConnectionString(ConnectionNames.IdentityServerConnection);
 
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("UsersConnection")));
+            services.AddDbContext<UserDbContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString(ConnectionNames.UserConnection)));
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
-                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddEntityFrameworkStores<UserDbContext>()
                 .AddDefaultTokenProviders();
 
             var builder = services.AddIdentityServer(options =>

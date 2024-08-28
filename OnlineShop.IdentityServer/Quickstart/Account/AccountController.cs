@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using OnlineShop.IdentityServer.Models;
+using OnlineShop.Library.UserManagementService.Models;
 using System;
 using System.Linq;
 using System.Threading.Tasks;

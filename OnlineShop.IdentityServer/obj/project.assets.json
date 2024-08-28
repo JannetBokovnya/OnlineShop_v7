@@ -1651,6 +1651,21 @@
             "rid": "win"
           }
         }
+      },
+      "OnlineShop.Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.20",
+          "Microsoft.EntityFrameworkCore": "7.0.20",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.20"
+        },
+        "compile": {
+          "bin/placeholder/OnlineShop.Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnlineShop.Library.dll": {}
+        }
       }
     }
   },
@@ -4264,6 +4279,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "OnlineShop.Library/1.0.0": {
+      "type": "project",
+      "path": "../OnlineShop.Library/OnlineShop.Library.csproj",
+      "msbuildProject": "../OnlineShop.Library/OnlineShop.Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4281,6 +4301,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 7.0.20",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.20",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.20",
+      "OnlineShop.Library >= 1.0.0",
       "Serilog.AspNetCore >= 7.0.0"
     ]
   },
@@ -4317,7 +4338,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "netcoreapp7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Janet_App\\My_Project\\Core\\OnlineShop1\\OnlineShop\\OnlineShop.Library\\OnlineShop.Library.csproj": {
+              "projectPath": "C:\\Janet_App\\My_Project\\Core\\OnlineShop1\\OnlineShop\\OnlineShop.Library\\OnlineShop.Library.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
